@@ -9,8 +9,6 @@ print(vehicle_in_traffic)
 
 vehicle_number_list_index = vehicle_number_plate.index(vehicle_in_traffic)
 
-#print(vehicle_number_list_index)
-
 
 if vehicle_registered_type[vehicle_number_list_index] == 'Government':
     print('Government Vehicle, Permitted to travel!')
